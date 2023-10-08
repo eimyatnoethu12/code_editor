@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Code Editor</title>
+    <link rel="stylesheet" href="App.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <label>Html</label>
+            <textarea id="html-code"></textarea>
+
+            <label>CSS</label>
+            <textarea id="css-code"></textarea>
+
+            <label>JavaScript</label>
+            <textarea id="js-code"></textarea>
+        </div>
+        <div class="right">
+            <div class="gp">
+                <label class="out">Output</label>
+                <button class="btn" id="butt" onclick=run()>play</button>
+            </div>
+            <iframe id="output">
+            </iframe>
+            <small>
+                if you write the console feature in your JS function just see on real console.log
+            </small>
+            <div id="console-output"></div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
